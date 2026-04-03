@@ -1,1 +1,49 @@
 # movie_metadata_project
+# Project Overview
+This project focuses on analyzing movie metadata to extract meaningful insights about films, including factors that influence ratings, popularity, and success. The dataset includes information such as genre, director, cast, budget, revenue, and ratings.
+# Objectives
+Perform data cleaning and preprocessing
+Analyze trends in movie ratings and revenue
+Identify key factors affecting movie success
+Generate business insights from movie data
+# Key Features
+Data cleaning (handling missing values, incorrect formats)
+Feature engineering
+Visualization of trends (genre, ratings, revenue)
+Insights generation for decision-making
+# Tech Stack
+Python
+Pandas
+NumPy
+Matplotlib 
+Scikit Learn
+Artificial Neural Network
+Random Forest
+XGBoost
+Google.Colab
+
+
+# Project Structure
+movie-metadata-project/
+│
+├── data/
+│   └── movie_metadata.csv
+├── notebook.ipynb
+├── README.md
+
+
+
+# Key Insights
+Certain genres consistently perform better in terms of revenue
+Higher budgets do not always guarantee higher ratings
+Popular actors and directors influence movie success
+Movies released in specific seasons tend to perform better
+#  How to Run
+.Clone the repository
+.Install required libraries:
+.pip install -r requirements.txt
+.Open the notebook and run all cells
+# Future Improvements
+Add detailed EDA and visualizations
+# Contributing
+Feel free to fork this repository and contribute!
