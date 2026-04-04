@@ -39,6 +39,10 @@ movie-metadata-project/
 .XGBoost Classifier
 # Note on Analysis
 This project focuses on model building building and prediction. Basic data preprocessing is performed but Exploratory data nalysis is limited.
+# Dataset
+the dataset used here is available on kaggle
+Link: https://www.kaggle.com/bharathraja/statistical-approach-for-predicting-imdb
+
 
 # Key Insights
 Certain genres consistently perform better in terms of revenue
