@@ -9,13 +9,14 @@ Generate business insights from movie data
 # Key Features
 Data cleaning (handling missing values, incorrect formats)
 Feature engineering
-Visualization of trends (genre, ratings, revenue)
+Visualization of few features
 Insights generation for decision-making
 # Tech Stack
 Python
 Pandas
 NumPy
 Matplotlib 
+Seaborn
 Scikit Learn
 Artificial Neural Network
 Random Forest
@@ -30,8 +31,14 @@ movie-metadata-project/
 │   └── movie_metadata.csv
 ├── notebook.ipynb
 ├── README.md
+├── requirements.txt
 
-
+# Models used
+.Artificial Neural Network
+.Random Forest Classifier
+.XGBoost Classifier
+# Note on Analysis
+This project focuses on model building building and prediction. Basic data preprocessing is performed but Exploratory data nalysis is limited.
 
 # Key Insights
 Certain genres consistently perform better in terms of revenue
@@ -43,7 +50,6 @@ Movies released in specific seasons tend to perform better
 .Install required libraries:
 .pip install -r requirements.txt
 .Open the notebook and run all cells
-# Future Improvements
-Add detailed EDA and visualizations
+
 # Contributing
 Feel free to fork this repository and contribute!
